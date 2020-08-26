@@ -7,5 +7,5 @@ fn main() {
     }
     let path = env::current_dir().unwrap();
     // println!("cargo:root={}", path.join("opus").join("lib"));
-    println!("cargo:rustc-flags=-L native={} -l static=opus", path.join("opus").join("lib").to_str().unwrap());
+    println!("cargo:rustc-flags=-L native={} -l static=opus-wasm", path.join("opus").join("lib").to_str().unwrap());
 }

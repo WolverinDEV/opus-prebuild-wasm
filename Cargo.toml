@@ -1,10 +1,10 @@
 [package]
 name = "opus-prebuild-wasm"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["WolverinDEV <git@teaspeak.de>"]
 edition = "2018"
 build = "build.rs"
-links = "opus"
+links = "opus-wasm"
 include = [
     "opus/*",
     "src/*",

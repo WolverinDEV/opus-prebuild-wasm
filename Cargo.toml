@@ -1,0 +1,16 @@
+[package]
+name = "opus-prebuild-wasm"
+version = "0.1.0"
+authors = ["WolverinDEV <git@teaspeak.de>"]
+edition = "2018"
+build = "build.rs"
+links = "opus"
+include = [
+    "opus/*",
+    "src/*",
+    "build.rs",
+    "Cargo.toml",
+    "readme.md"
+]
+
+[dependencies]
